@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: MyTest.DemoTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.848 sec <<< FAILURE!
+demo1Test(MyTest.DemoTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at MyTest.DemoTest.demo1Test(DemoTest.java:14)
+
